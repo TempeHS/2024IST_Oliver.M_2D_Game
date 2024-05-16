@@ -11,17 +11,36 @@ private bool isFacingRight = true;
 
 [SerializeField] private Rigidbody2D rb;
 [SerializeField] private Transform groundcheck;
-[SerialzeField] private LayerMask groundlayer;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+[SerializeField] private LayerMask groundlayer;
 
     // Update is called once per frame
     void Update()
     {
-        
+        horizontal = Input.GetAxis("Horizontal");
+
+        Flip();
     }
+
+    private void FixedUpdate()
+     {
+        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+     }
+
+     private bool IsGrounded()
+     {
+        return Physics2D.OverlapCircle();
+     }
+
+     private void Flip()
+     {
+        if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
+        {
+            isFacingRight = !isFacingRight
+            Vector3 localScale = transform.localScale;
+            localScale.x *= -1f;
+            transform.localScale = localScale;
+        }
+    
+     }
+
 }
