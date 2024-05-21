@@ -10,8 +10,8 @@ private float jumpingPower = 16f;
 private bool isFacingRight = true;
 
 [SerializeField] private Rigidbody2D rb;
-[SerializeField] private Transform groundcheck;
-[SerializeField] private LayerMask groundlayer;
+[SerializeField] private Transform groundCheck;
+[SerializeField] private LayerMask groundLayer;
 
     // Update is called once per frame
     void Update()
