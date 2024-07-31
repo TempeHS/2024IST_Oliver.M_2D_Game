@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 private float horizontal;
-private float speed = 8f;
+private float speed = 4f;
 private float jumpingPower = 16f;
 private bool isFacingRight = true;
 
@@ -67,6 +67,18 @@ private float jumpBufferCounter;
      private bool IsGrounded()
      {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+     }
+
+     private void Dash()
+     {
+        if (Input.GetButtonDown("Up"))
+        {
+            speed = 70;
+        }
+        if (Input.GetButtonUp("Up"))
+        {
+            speed = 8;
+        }
      }
 
      private void Flip()
