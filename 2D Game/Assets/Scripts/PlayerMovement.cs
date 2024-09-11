@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
 private float horizontal;
 private float speed = 10f;
-private float jumpingPower = 16f;
+private float jumpingPower = 14f;
 private bool isFacingRight = true;
 
 private float coyoteTime = 0.2f;
@@ -27,6 +27,7 @@ private float jumpBufferCounter;
         if (IsGrounded())
         {
             coyoteTimeCounter = coyoteTime;
+            speed = 10;
         }
         else
         {
@@ -36,6 +37,7 @@ private float jumpBufferCounter;
         if (Input.GetButtonDown("Jump"))
         {
             jumpBufferCounter = jumpBufferTime;
+            speed = 10;
         }
         else
         {
@@ -48,14 +50,7 @@ private float jumpBufferCounter;
 
             jumpBufferCounter = 0f;
         }
-        
-        if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
 
-            coyoteTimeCounter = 0f;
-        }
-        
         Flip();
     }
 
@@ -66,18 +61,18 @@ private float jumpBufferCounter;
 
      private bool IsGrounded()
      {
-        return Physics2D.OverlapCircle(groundCheck.position, 2f, groundLayer);
+        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
      }
 
      private void Dash()
      {
         if (Input.GetButtonDown("Up"))
         {
-            speed = 70;
+            speed = 10;
         }
         if (Input.GetButtonUp("Up"))
         {
-            speed = 8;
+            speed = 10;
         }
      }
 

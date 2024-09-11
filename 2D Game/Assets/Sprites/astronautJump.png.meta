@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b52d060b1a976eb41b0a6469424a7222
+guid: b7041799ccb2fba47b17b33d4296e02e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,49 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: astronautIdle_0
+      name: astronautJump_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43042e14058ba614a89dabb229adfb89
+      internalID: 2059487876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronautJump_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7e9a3e2ba37b548b78b39c8ae90b08
+      internalID: -1791511909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronautJump_2
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a4902c03dc56bf4eaec88498b9a0656
-      internalID: -1464760717
+      spriteID: 7ad16df55768a594cbb98d6aa3e3a5a9
+      internalID: 435753528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: astronautIdle_1
+      name: astronautJump_3
       rect:
         serializedVersion: 2
         x: 32
@@ -158,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 749741d2f11d01745be7c22f856596bc
-      internalID: -282290091
+      spriteID: b40a86cbc67f34b45aff93b2194d4d6f
+      internalID: -1814532885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: astronautIdle_2
+      name: astronautJump_4
       rect:
         serializedVersion: 2
         x: 0
@@ -179,29 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cf60c029064ada479db4c45069219ed
-      internalID: -320984000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: astronautIdle_3
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e30c4a03ccca23741a8e0ecb4942b7bd
-      internalID: -1150035597
+      spriteID: 73d9869ecd812c24ea000968e7e6f325
+      internalID: 974952511
       vertices: []
       indices: 
       edges: []
@@ -217,10 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      astronautIdle_0: -1464760717
-      astronautIdle_1: -282290091
-      astronautIdle_2: -320984000
-      astronautIdle_3: -1150035597
+      astronautJump_0: 2059487876
+      astronautJump_1: -1791511909
+      astronautJump_2: 435753528
+      astronautJump_3: -1814532885
+      astronautJump_4: 974952511
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
