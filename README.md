@@ -13,7 +13,8 @@
 4. [Documentation](https://github.com/TempeHS/2024IST_Oliver.M_?tab=readme-ov-file#documentation)
 5. [Collaboration](https://github.com/TempeHS/2024IST_Oliver.M_?tab=readme-ov-file#collaboration)
 
-# Overview
+# Overview![Screenshot (3)](https://github.com/user-attachments/assets/ba23761e-183e-4af7-8c38-4a82588ab043)
+
 
 # Walkthrough![Screenshot (1)](https://github.com/user-attachments/assets/999c46ff-9bc5-49c9-9779-008740731abc)
 
