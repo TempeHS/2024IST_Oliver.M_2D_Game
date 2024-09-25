@@ -27,8 +27,8 @@
 - Coyote Time And Jump Buffering Tutorial: https://www.youtube.com/watch?v=RFix_Kg2Di0 
 - Falling Platforms Tutorial: https://www.youtube.com/watch?v=uzbMPEkkSmo
 - Player Movement Script/Tutorial: https://www.youtube.com/watch?v=K1xZ-rycYY8
- -Jump Pad Tutorial: https://www.youtube.com/watch?v=0e3Ld6-RzIU
- -Camera Follow Tutorial: https://www.youtube.com/watch?v=ZBj3LBA2vUY
+- Jump Pad Tutorial: https://www.youtube.com/watch?v=0e3Ld6-RzIU
+- Camera Follow Tutorial: https://www.youtube.com/watch?v=ZBj3LBA2vUY
 # Documentation
 
 A little explination on how I made the game and the skills I aquired.
