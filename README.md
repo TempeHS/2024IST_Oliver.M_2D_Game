@@ -11,7 +11,7 @@
 2. [Walkthrough](https://github.com/TempeHS/2024IST_Oliver.M_?tab=readme-ov-file#walkthrough)
 3. [Tutorials](https://github.com/TempeHS/2024IST_Oliver.M_?tab=readme-ov-file#tutorials)
 4. [Documentation](https://github.com/TempeHS/2024IST_Oliver.M_?tab=readme-ov-file#documentation)
-5. [Collaboration](https://github.com/TempeHS/2024IST_Oliver.M_?tab=readme-ov-file#collaboration)
+
 
 # Overview![Screenshot (3)](https://github.com/user-attachments/assets/ba23761e-183e-4af7-8c38-4a82588ab043)
 This game has a space theme, you play as an astronaut trying to make his way through space. There are a number of platforms and falling flatforms to challenge players. The objective of the game is to make it to the end of the game without falling into space.
