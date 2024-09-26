@@ -20,6 +20,7 @@ This game has a space theme, you play as an astronaut trying to make his way thr
 
 # Tutorials
 
+[WASD.pdf](https://github.com/user-attachments/files/17156782/WASD.pdf)
 
 
 # Documentation
@@ -29,7 +30,4 @@ This game has a space theme, you play as an astronaut trying to make his way thr
 -Next I followed somne other tutorials to make the game more challenging and to add some better features making the game more fun. 
 - Falling Platforms Tutorial: https://www.youtube.com/watch?v=uzbMPEkkSmo
 - Jump Pad Tutorial: https://www.youtube.com/watch?v=0e3Ld6-RzIU
-# Collaboration
 
-Sam the multimedia partner
-[add media examples]
